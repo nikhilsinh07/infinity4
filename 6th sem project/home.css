@@ -1,0 +1,231 @@
+*{
+    padding:0px;
+    margin:0px;
+    
+}
+.marcellus-sc-regular {
+    font-family: "Marcellus SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+html{
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*header*/
+.detail{
+    border-bottom:1px solid rgb(143, 141, 141);
+    padding-top:15px;
+    width:100%;
+    height:30px;
+    display: flex;
+    font-family: "Marcellus SC", serif;
+    justify-content: space-between;
+    
+}
+#detail-left{
+    padding-left:35px;
+    display: flex;
+    font-family: "Marcellus SC", serif;
+    
+}
+#detail-left p{
+    font-size:12px;
+    align-items: center;
+    padding-bottom:5px;
+
+}
+#detail-right{
+    display: flex;
+    font-family: "Marcellus SC", serif;
+    padding-right:35px;
+
+}
+#detail-right button{
+    border:0px;
+    background-color: transparent;
+    padding-right:5px;
+    font-size: 16px;
+    padding-bottom:10px;
+}
+
+/*navbar*/
+.navbar{
+    cursor:default;
+    padding-top:10px;
+    width:100%;
+    height:50px;
+    display: flex;
+    justify-content:space-between ;
+}
+#nav-left{
+    padding-left:35px;
+    font-family: "Marcellus SC", serif;
+}
+#nav-right{
+width:600px;
+    padding-right:35px;
+    font-family:  serif;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* front pic*/
+.pic1{
+    width:95%;
+    height:500px;
+    background-image: url(pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 35px;
+}
+.pic1 h1{
+    font-family: "Marcellus SC", serif;
+    position:relative;
+    top:70px;
+    left:100px;
+    width:500px;
+}
+.pic1 h3{
+    font-family: "Marcellus SC", serif;
+    position:relative;
+    top:70px;
+    left:100px;
+    font-weight: 100;
+    width:500px;
+}
+.pic1 button{
+    font-family: "Marcellus SC", serif;
+    position:relative;
+    top:70px;
+    left:100px;
+    width:90px;
+    height:30px;
+    background-color: black;
+    color:white
+}
+.pic1 button:hover{
+    top:67px;
+}
+
+
+/*login*/
+.hidden{
+    display: none;;
+}
+.login{
+    padding-top:20px;
+    font-family: "Marcellus SC", serif;
+    position: fixed;
+    z-index: 8;
+    background-color: white;
+width:400px;
+height:400px;
+border-radius: 10px;
+left:40%;
+top:20%;
+text-align: center;
+animation: popup 0.6s ease-in;
+}
+@keyframes popup{
+    0%{
+        opacity:10%;
+    }
+    50%{
+        opacity:50%;
+    }
+    100%{
+        opacity:100%;
+    }
+}
+.login button{
+    font-family: "Marcellus SC", serif;
+    width:90px;
+    height:30px;
+    background-color: black;
+    color:white
+}
+.login h4{
+    position: absolute;
+    right:10px;
+    top:10px;
+    cursor: default;
+}
+
+
+/* category dropdown*/
+.category:hover{
+   
+    background-color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    animation: popup 0.3s ease-in;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+  /*searchbar*/
+  .search{
+    position: relative;
+    align-items: center;
+    top:10px;
+  }
+  .search input{
+    text-align: center;
+    width:300px;
+    height:23px;
+    border-radius: 10px;
+  }
+
+  /*active page*/
+  .AC{
+    color:gray;
+  }
+  .NAC{
+    color:black;
+  }
+  
+
+  /*boys*/
+  .gendercategory{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .genderbox{
+    display: flex;
+    justify-content: space-evenly;
+    width:450px;
+    height:200px;
+    background-color: white;
+
+    margin-right:8px;
+    
+    margin-top:20px;
+  }
+.boys{
+    background-image: url(pic2.jpg);
+    background-size: cover;
+}
